@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeTask", "HomeTask\HomeTask.csproj", "{B51D853B-4048-4544-887E-95EF656491C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializationReflection", "HomeTask\SerializationReflection.csproj", "{B51D853B-4048-4544-887E-95EF656491C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationJSON", "SerializeJSON\SerializationJSON.csproj", "{81BE2FC3-F5AE-4217-86B0-AD497B4593A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvSerialization", "CsvSerialization\CsvSerialization.csproj", "{2F606525-981F-4D06-9C2D-B4107619E5A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B51D853B-4048-4544-887E-95EF656491C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B51D853B-4048-4544-887E-95EF656491C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B51D853B-4048-4544-887E-95EF656491C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81BE2FC3-F5AE-4217-86B0-AD497B4593A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81BE2FC3-F5AE-4217-86B0-AD497B4593A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81BE2FC3-F5AE-4217-86B0-AD497B4593A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81BE2FC3-F5AE-4217-86B0-AD497B4593A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F606525-981F-4D06-9C2D-B4107619E5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F606525-981F-4D06-9C2D-B4107619E5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F606525-981F-4D06-9C2D-B4107619E5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F606525-981F-4D06-9C2D-B4107619E5A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
