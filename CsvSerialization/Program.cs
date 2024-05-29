@@ -7,8 +7,7 @@ namespace CsvSerialization
     class Program
     {
         static void Main(string[] args)
-        {
-            // Пример данных для сериализации
+        {            
             var data = new List<F>();
             bool showTextInConsole = false;
             int iterationsCount = 10000;
