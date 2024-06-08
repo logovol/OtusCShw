@@ -6,11 +6,11 @@ dirWalker.FileFound += (sender, e) =>
 {
     Console.WriteLine($"File found {e.FileName}");
 
-    if (e.FileName.EndsWith(".txt"))
-    {
-        Console.WriteLine("Searching canceled. txt file was founded");
-        e.Cancel = true;
-    }
+if (e.FileName.EndsWith(".txt"))
+{
+    Console.WriteLine("Searching canceled. txt file was founded");
+    e.Cancel = true;
+}
 };
 
 string dirPath = @"C:\Users\logov\Desktop\doc";
